@@ -14,7 +14,12 @@ const ProjectsCard = ({ data }) => {
 							<div className="pl-4">
 								<h3>{data.name}</h3>
 								<CardImg alt="Nike Home" src={data.image} width="100%" height="400px"/>
-								<p className="description mt-3">{data.desc}</p>
+								<div style={{marginTop:"5%"}}>
+									<b  style={{fontSize:"18px"}} className="description mt-3">{data.desc}</b>
+									<p>Collaborative Project, Team of 5 Members executed in 6 days</p>
+									<p>{data.tech}</p>
+								</div>
+								
 								{data.github ? (
 									<Button
 										className="btn-icon"

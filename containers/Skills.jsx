@@ -10,7 +10,7 @@ const Skills = () => {
 		<Fade bottom duration={1000} distance="40px">
 			<Container className="text-center my-5 section section-lg">
 				<h1 className="h1">{skillsSection.title}</h1>
-				<p className="lead">{skillsSection.subTitle}</p>
+				{/* <p className="lead">{skillsSection.subTitle}</p> */}
 				<Row>
 					<Col lg="6">
 						<DisplayLottie animationPath="/lottie/webdev.json" />
@@ -19,8 +19,9 @@ const Skills = () => {
 						<div className="d-flex justify-content-center flex-wrap mb-5">
 							{skillsSection.softwareSkills.map((skill) => {
 								return (
-									<Fragment key={skill.skillName}>
+									<Fragment key={skill.skillName} >
 										<div
+											style={{width:"100px",height:"100px",marginLeft:"5%",background:"#e7f7f3"}}
 											className="icon icon-lg icon-shape shadow rounded-circle mb-5"
 											id={skill.skillName}
 										>
@@ -42,11 +43,11 @@ const Skills = () => {
 								);
 							})}
 						</div>
-						<div>
+						{/* <div>
 							{skillsSection.skills.map((skill) => {
 								return <p key={skill}>{skill}</p>;
 							})}
-						</div>
+						</div> */}
 					</Col>
 				</Row>
 			</Container>
