@@ -152,7 +152,7 @@
   gap: 20px;
 }
 
-#project-forestessentialindia {
+#project-kfcIndia {
   height: 750px;
   background-image: url("../image/kfc.png");
   background-position: center;
@@ -163,7 +163,7 @@
   border-radius: 20px;
 }
 
-#project-forestessentialindia > div {
+#project-kfcIndia > div {
   background-color: rgba(36, 38, 41, 0.7);
   width: 100%;
   margin-top: 42%;
@@ -171,13 +171,13 @@
   padding-bottom: 30px;
 }
 
-#project-forestessentialindia > div > h2 {
+#project-kfcIndia > div > h2 {
   text-align: center;
   color: #ff7d04;
   font-size: xx-large;
 }
 
-#project-forestessentialindia > div > p {
+#project-kfcIndia > div > p {
   width: 80%;
   margin: auto;
   text-align: center;
@@ -189,8 +189,8 @@
 }
 
 .deploy-source-code > a {
-  margin-top: 20px;
-  font-size: large;
+  margin:0 2% 0 1%;
+  font-size:medium;
   font-weight: bolder;
   background-color: transparent;
   color: #fff;
@@ -242,18 +242,20 @@
 
 #project-nike-ejs {
   height: 750px;
+  line-height: 25px;
   background-image: url("../image/homenike.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   align-items: baseline;
+  border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 #project-nike-ejs > div {
   background-color: rgba(36, 38, 41, 0.7);
   width: 100%;
-  margin-top: 40%;
+  margin-top: 30%;
   padding-top: 20px;
   padding-bottom: 30px;
 }
@@ -410,7 +412,7 @@
     width: 85%;
     grid-template-columns: repeat(1, 1fr);
   }
-  #project-forestessentialindia > div {
+  #project-kfcIndia > div {
     background-color: rgba(36, 38, 41, 0.9);
   }
 
@@ -549,11 +551,11 @@
     justify-content: center;
   }
 
-  #project-forestessentialindia {
+  #project-kfcIndia {
     height: 950px;
   }
 
-  #project-forestessentialindia > div {
+  #project-kfcIndia > div {
     background-color: rgba(36, 38, 41, 0.9);
     margin-top: 87%;
   }
