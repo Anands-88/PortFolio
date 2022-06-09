@@ -1,18 +1,18 @@
 .home-about-main-div {
-  color: rgb(175, 174, 174);
+  color: rgb(240, 236, 236);
   display: flex;
   flex-direction: row-reverse;
   margin-top: 20px;
 }
 
 #about-main-div {
-  width: 60%;
-  margin-left: 20px;
+  width: 50%;
+  margin-left: 8%;
   text-align: center;
 }
 
 #myname-h1 {
-  font-family: "Kaushan Script", cursive;
+  font-family: 'Oleo Script Swash Caps',fantasy;
 }
 
 #myname-about-main {
@@ -25,7 +25,8 @@
   margin-top: 20px;
   width: 91%;
   margin: auto;
-  font-size: large;
+  font-size: larger;
+  line-height:25px;
 }
 
 #myPhoto-main-div {
@@ -58,7 +59,7 @@
 }
 
 .skils-main-div {
-  background-color: #242629;
+  background-color: #0e0d0d;
   padding: 28px 18px;
   padding-bottom: 48px;
   margin-top: 20px;
@@ -87,11 +88,10 @@
   width: 100%;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid red; */
 }
 
 .icon-skill {
-  color: #ff7d04;
+  color: #fc7b0a;
   font-size: 40px;
 }
 
@@ -159,7 +159,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   align-items: baseline;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(104, 102, 102, 0.24) 0px 3px 8px;
   border-radius: 20px;
 }
 
