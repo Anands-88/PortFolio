@@ -161,10 +161,10 @@
   box-shadow: rgba(104, 102, 102, 0.24) 0px 3px 8px;
   border-radius: 20px;
 }
-/* rgb(93, 92, 92); */
+
 .projectName > div {
   background: rgba(36, 38, 41, 0.7);
-  border:2px ridge rgb(255, 0, 0);
+  border:2px ridge  rgb(93, 92, 92);
   width: 100%;
   margin-top: 45%;
   height:55%;
