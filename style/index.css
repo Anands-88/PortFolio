@@ -149,12 +149,11 @@
   width: 95%;
   margin: auto;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  gap: 30px;
 }
 
-#project-kfcIndia {
+.projectName{
   height: 750px;
-  background-image: url("../image/kfc.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -163,29 +162,41 @@
   border-radius: 20px;
 }
 
-#project-kfcIndia > div {
-  background-color: rgba(36, 38, 41, 0.7);
+.projectName > div {
+  background: rgba(36, 38, 41, 0.7);
   width: 100%;
-  margin-top: 42%;
-  padding-top: 20px;
+  margin-top: 45%;
+  height:55%;
+  padding-top: 10px;
   padding-bottom: 30px;
 }
 
-#project-kfcIndia > div > h2 {
+.projectName > div > h2 {
   text-align: center;
-  color: #ff7d04;
+  color: #ff7104;
   font-size: xx-large;
 }
 
-#project-kfcIndia > div > p {
-  width: 80%;
+.project-info{
+  width: 85%;
+  height:15%;
+  line-height: 20px;
   margin: auto;
   text-align: center;
+}
+
+.techs{
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  height:9%;
+  margin-top: -1%;
 }
 
 .deploy-source-code {
   display: flex;
   justify-content: center;
+  margin-top: 5%;
 }
 
 .deploy-source-code > a {
@@ -208,68 +219,14 @@
 .product-features {
   width: 80%;
   margin: auto;
+  margin-top: -2%;
+  height:34%;
+  line-height: 20px;
 }
 
-#project-nike-html {
-  height: 750px;
-  background-image: url("../image/homenike.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  align-items: baseline;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-#project-nike-html > div {
-  background-color: rgba(36, 38, 41, 0.7);
-  width: 100%;
-  margin-top: 40%;
-  padding-top: 20px;
-  padding-bottom: 30px;
-}
-
-#project-nike-html > div > h2 {
-  text-align: center;
-  color: #ff7d04;
-  font-size: xx-large;
-}
-
-#project-nike-html > div > p {
-  width: 80%;
-  margin: auto;
-  text-align: center;
-}
-
-#project-nike-ejs {
-  height: 750px;
-  line-height: 25px;
-  background-image: url("../image/homenike.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  align-items: baseline;
-  border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-#project-nike-ejs > div {
-  background-color: rgba(36, 38, 41, 0.7);
-  width: 100%;
-  margin-top: 30%;
-  padding-top: 20px;
-  padding-bottom: 30px;
-}
-
-#project-nike-ejs > div > h2 {
-  text-align: center;
-  color: #ff7d04;
-  font-size: xx-large;
-}
-
-#project-nike-ejs > div > p {
-  width: 80%;
-  margin: auto;
-  text-align: center;
+.product-features > h4{
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 #mailto {
